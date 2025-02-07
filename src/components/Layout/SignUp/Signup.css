@@ -1,0 +1,97 @@
+/* Center the sign-up box */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb); /* Purple Gradient */
+}
+
+/* Sign-up box */
+.signup-box {
+  background: #ddd1f1;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+.signup-box h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Name fields (First & Last Name) */
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-fields input {
+  width: 48%;
+}
+
+/* Input fields */
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Terms checkbox */
+.terms {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #555;
+}
+
+.terms input {
+  margin-right: 8px;
+}
+
+/* Sign-up button */
+.signup-box button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #8763a8, #532b83);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-box button:hover {
+  background: linear-gradient(to right, #423053, #7239b8);
+}
+
+/* Login link */
+.login-link {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #6a11cb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
